@@ -1,6 +1,6 @@
 # Bienvenue
 
-Ce playground va vous permettre d'apprendre et comprendre le design pattern Visitor.
+Bonjour à tous, ce playground va vous permettre d'apprendre et comprendre brièvement le design pattern Visitor.
 
 ```java runnable
 // { autofold
