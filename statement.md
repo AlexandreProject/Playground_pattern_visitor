@@ -12,12 +12,26 @@ Bonjour à tous, ce playground va vous permettre d'apprendre et comprendre briè
 
 Lorsqu'on parle de pattern, il peut s'agir d'un motif, un modèle, une structure... C'est un phénomène que l'on observe de façon répétée, par exemple dans un jeu vidéo, un "boss" possède très souvent des patterns, dont il faudra exploiter pour le vaincre.
 
+//image de Super Mario Bros à intégrée
 
 Un pattern constitue une solution générique pour un type de problème rencontré.
 
+# Origine des Design Patterns 
+
+//Raconter l'origine
+
+# Design Pattern ?
+
+//Definir design pattern
+
+# Les différents Design Patterns
+
+//Parler des trois grands groupe
+
+# L'utilité des Design Patterns et comment s'en servir
+
+//identifier le probleme, trouver le pattern et appliquer le pattern
 
 
-En programmation orientée objet et en génie logiciel, le patron de conception comportemental visiteur est une manière de séparer un algorithme d'une structure de données. [Plus d'infos](https://fr.wikipedia.org/wiki/Visiteur_(patron_de_conception))
 
 
-```
