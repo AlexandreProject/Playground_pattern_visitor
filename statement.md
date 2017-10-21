@@ -13,7 +13,7 @@ Bonjour à tous, ce playground va vous permettre d'apprendre et comprendre briè
 Lorsqu'on parle de pattern, il peut s'agir d'un motif, un modèle, une structure... C'est un phénomène que l'on observe de façon répétée, par exemple dans un jeu vidéo, un "boss" possède très souvent des patterns, dont il faudra exploiter pour le vaincre.
 
 
-Un pattern 
+Un pattern constitue une solution générique pour un type de problème rencontré.
 
 
 
