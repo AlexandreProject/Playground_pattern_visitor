@@ -10,7 +10,7 @@ Bonjour à tous, ce playground va vous permettre d'apprendre et comprendre briè
 
 # Definition
 
-En programmation orientée objet et en génie logiciel, le patron de conception comportemental visiteur est une manière de séparer un algorithme d'une structure de données. use the [Advanced Java template](https://tech.io/select-repo/385)
+En programmation orientée objet et en génie logiciel, le patron de conception comportemental visiteur est une manière de séparer un algorithme d'une structure de données. [Plus d'infos](https://fr.wikipedia.org/wiki/Visiteur_(patron_de_conception))
 
 ```java runnable
 // { autofold
