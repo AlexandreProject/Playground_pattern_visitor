@@ -2,7 +2,11 @@
 
 Bonjour à tous, ce playground va vous permettre d'apprendre et comprendre brièvement le design pattern Visitor.
 
-
+?[De quel design pattern on va parler aujourd'hui ?]
+-[ ] Je ne sais pas
+-[ ] Singleton
+-[x] Visitor
+-[ ] La réponse D
 
 # Advanced usage
 
