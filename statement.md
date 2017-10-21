@@ -1,6 +1,6 @@
-# Welcome!
+# Bienvenue
 
-This Java template lets you get started quickly with a simple one-page playground.
+Ce playground va vous permettre d'apprendre et comprendre le design pattern Visitor.
 
 ```java runnable
 // { autofold
