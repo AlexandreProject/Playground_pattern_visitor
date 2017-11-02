@@ -1,4 +1,4 @@
-Première étape
+# Première étape
 
 On définit une interface qui représente un élément.
 
@@ -9,7 +9,7 @@ interface CarElement {
     // Méthode à définir par les classes implémentant CarElements
 }
 
-Deuxième étape
+# Deuxième étape
 
 On crée les classes qui étendent de cette interface.
 
@@ -68,7 +68,7 @@ class Car {
     }
 }
 
-Troisième étape
+# Troisième étape
 
 On crée une interface qui représente Visitor.
 
@@ -81,7 +81,7 @@ interface CarElementVisitor {
     void visitCar(Car car);
 }
 
-Quatrième étape
+# Quatrième étape
 
 On crée deux classes visitor qui étendent l'interface précédente.
 
@@ -133,7 +133,7 @@ class CarElementDoVisitor implements CarElementVisitor {
     }
 }
 
-Cinquième étape
+# Cinquième étape
 
 On crée une classe de test pour la démonstration grâce aux deux classes précédentes.
 
@@ -151,7 +151,7 @@ public class TestVisitorDemo {
     }
 }
 
-Sixième étape
+# Sixième étape
 
 On vérifie que tout cela fonctionne.
 
