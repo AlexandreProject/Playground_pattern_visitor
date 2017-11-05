@@ -2,18 +2,12 @@
 
 Bonjour à tous, ce playground va vous permettre d'apprendre et comprendre brièvement le design pattern Visitor.
 
-?[De quel design pattern va-t-on parler aujourd'hui ?]
--[ ] Je ne sais pas
--[ ] Singleton
--[x] Visitor
--[ ] La réponse D
-
 # Pattern ?
 
 Lorsqu'on parle de pattern, il peut s'agir d'un motif, un modèle, une structure... C'est un phénomène que l'on observe de façon répétée, par exemple dans un jeu vidéo, un "boss" possède très souvent des patterns, dont il faudra exploiter pour le vaincre.
 
 ![Image Super Mario Bros](https://img4.hostingpics.net/pics/620119SuperMarioBrosVsBowser.png)
-Dans _Super Mario Bros._, Bowser crache des boules de feu et saute à des intervales régulier, il suit donc certain patterns.
+Dans _Super Mario Bros._, Bowser crache des boules de feu et saute à des intervalles régulier, il suit donc certain patterns.
 
 Un pattern constitue une solution générique pour un type de problème rencontré.
 
@@ -33,6 +27,11 @@ Un pattern constitue une solution générique pour un type de problème rencontr
 
 //identifier le probleme, trouver le pattern et appliquer le pattern
 
+# QCM
 
-
+?[De quel design pattern va-t-on parler aujourd'hui ?]
+-[ ] Je ne sais pas
+-[ ] Singleton
+-[x] Visitor
+-[ ] La réponse D
 
