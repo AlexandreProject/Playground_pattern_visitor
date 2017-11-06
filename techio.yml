@@ -6,3 +6,7 @@ plan:
   statement: presentation_pattern_visitor.md
 - title: Exemple d'utilisation
   statement: exemple_pattern_visitor.md
+  
+projects:
+  java:
+    root: /PatternVisiteur 
