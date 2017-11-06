@@ -177,6 +177,7 @@ public class TestVisitorDemo {
         doVisitor.visitCar(car);
     }
 }
+```
 
 On attend ce résultat :
 
