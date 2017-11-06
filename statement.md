@@ -41,9 +41,9 @@ Un Design Pattern est représenté par 4 caractéristiques :
 ## Les différents Design Patterns
 
 Les 23 Designs Patterns peuvent être regroupés en 3 familles : 
-    - **Création** : ils permettent d’instancier et de configurer des classes et des objets.
-    - **Structure** : ils permettent d’organiser les classes d’une application.
-    - **Comportement** : ils permettent d'organiser les objets pour qu’ils collaborent entre eux.
+- **Création** : ils permettent d’instancier et de configurer des classes et des objets.
+- **Structure** : ils permettent d’organiser les classes d’une application.
+- **Comportement** : ils permettent d'organiser les objets pour qu’ils collaborent entre eux.
 
 
 ## Comment s'en servir ?
