@@ -19,7 +19,7 @@ L'origine des Designs Patterns viens des travaux d'un architecte, Christopher Al
 
 Ce n'est que plus tard dans les années 90, que l'idée d'Alexander va être reprise, plus particulièrement dans le domaine de conception de logiciel. Dans le livre _Design Patterns : Elements of Reusable Object-Oriented_ .
 
-![Image de couverture "Design Patterns : Elements of Reusable Object-Oriented Software"](https://img4.hostingpics.net/pics/379158designpatternsgof.jpg)                                                                                                                                              
+![Image de couverture "Design Patterns : Elements of Reusable Object-Oriented Software"](https://img4.hostingpics.net/pics/918603designpatternsgof.jpg)                                                                                                                                              
 Publié en 1995 par Erich Gamma, Richard Helm, Ralph Johnson et John Vlissides, et plus généralement appélé ***"Gang of Four"*** (GoF), cette équipe présente 23 Design Patterns qui sont aujourd'hui des références dans de domaine de l'informatique.
 
 # Design Pattern ?
