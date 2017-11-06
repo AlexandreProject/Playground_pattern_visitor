@@ -7,9 +7,3 @@ plan:
 - title: Exemple d'utilisation
   statement: exemple_pattern_visitor.md
 
-/*
-projects:
-  java:
-    root: /PatternVisiteur 
-    runner: techio/java-maven3-junit4-runner:1.1.3-java-8
-*/
