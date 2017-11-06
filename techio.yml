@@ -1,7 +1,7 @@
 title: Pattern Visitor
 plan:
 - title: Introduction
-  statement: statement.md
+  statement: introduction_pattern_visitor.md
 - title: Design Pattern Visitor
   statement: presentation_pattern_visitor.md
 - title: Exemple d'utilisation
