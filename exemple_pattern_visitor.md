@@ -3,7 +3,7 @@
 On définit une interface qui représente un élément.
 
 CarElement.java
-```
+```java
 interface CarElement {
     void accept(CarElementVisitor visitor);
     // Méthode à définir par les classes implémentant CarElements
@@ -15,7 +15,7 @@ interface CarElement {
 On crée les classes qui étendent de cette interface.
 
 Wheel.java
-```
+```java
 class Wheel implements CarElement {
     private String name;
 
@@ -34,7 +34,7 @@ class Wheel implements CarElement {
 ```
 
 Engine.java
-```
+```java
 class Engine implements CarElement {
     public void accept(CarElementVisitor visitor) {
         visitor.visit(this);
@@ -43,7 +43,7 @@ class Engine implements CarElement {
 ```
 
 Body.java
-```
+```java
 class Body implements CarElement {
     public void accept(CarElementVisitor visitor) {
         visitor.visit(this);
@@ -52,7 +52,7 @@ class Body implements CarElement {
 ```
 
 Car.java
-```
+```java
 class Car {
     CarElement[] elements;
 
@@ -78,7 +78,7 @@ class Car {
 On crée une interface qui représente Visitor.
 
 CarElementVisitor.java
-```
+```java
 interface CarElementVisitor {
     void visit(Wheel wheel);
     void visit(Engine engine);
@@ -92,7 +92,7 @@ interface CarElementVisitor {
 On crée deux classes visitor qui étendent l'interface précédente.
 
 CarElementPrintVisitor.java
-```
+```java
 class CarElementPrintVisitor implements CarElementVisitor {
     public void visit(Wheel wheel) {
         System.out.println("Visiting "+ wheel.getName() + " wheel");
@@ -117,7 +117,7 @@ class CarElementPrintVisitor implements CarElementVisitor {
 ```
 
 CarElementDoVisitor.java
-```
+```java
 class CarElementDoVisitor implements CarElementVisitor {
     public void visit(Wheel wheel) {
         System.out.println("Kicking my "+ wheel.getName());
@@ -146,7 +146,7 @@ class CarElementDoVisitor implements CarElementVisitor {
 On crée une classe de test pour la démonstration grâce aux deux classes précédentes.
 
 TestVisitorDemo.java
-```
+```java
 public class TestVisitorDemo {
     static public void main(String[] args) {
         Car car = new Car();
@@ -181,7 +181,7 @@ public class TestVisitorDemo {
 
 On attend ce résultat :
 
-```java runnable
+```java
 Visiting car
 Visiting front left wheel
 Visiting front right wheel
