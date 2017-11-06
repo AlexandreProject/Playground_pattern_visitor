@@ -49,8 +49,8 @@ Les 23 Designs Patterns peuvent être regroupés en 3 familles :
 ## L'utilité des Design Patterns et comment s'en servir
 
 1. Trouver le problème
-2. Identifier le Design Pattern qui pourrait résoudre le problème
-3. Créer sa propre solution en utilisant la solution générique du Design Pattern
+1. Identifier le Design Pattern qui pourrait résoudre le problème
+1. Créer sa propre solution en utilisant la solution générique du Design Pattern
 
 Il est important de bien identifier le problème de conception avant de choisir un pattern, sinon le pattern choisi s'adaptera mal avec le problème et pourrait créer encore plus de problème qu'au départ.
 
@@ -70,8 +70,8 @@ Il est important de bien identifier le problème de conception avant de choisir 
 -[ ] Un motif de conception
 -[x] Un composant réutilisable et paramétrable
 -[x] Un algorithme
--[ ] Une solution générique
--[ ] Une structure
+-[ ] Une solution générique pour une problèmatique précise
+-[ ] Ensemble de bonnes pratiques
 -[x] Un framework
 
 ?[A votre avis, à quelle famille appartient le Design Pattern Visiteur ?]
