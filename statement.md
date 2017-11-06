@@ -1,6 +1,6 @@
 # Bienvenue
 
-Bonjour à tous, ce playground va vous permettre d'apprendre et comprendre brièvement le design pattern Visitor.
+Bonjour à tous, ce playground va vous permettre d'apprendre et comprendre brièvement le design pattern Visiteur.
 
 # Pattern ?
 
@@ -20,11 +20,13 @@ L'origine des Designs Patterns viens des travaux d'un architecte, Christopher Al
 Ce n'est que plus tard dans les années 90, que l'idée d'Alexander va être reprise, plus particulièrement dans le domaine de conception de logiciel. Dans le livre _Design Patterns : Elements of Reusable Object-Oriented_ .
 
 ![Image de couverture "Design Patterns : Elements of Reusable Object-Oriented Software"](https://img4.hostingpics.net/pics/918603designpatternsgof.jpg)                                                                                                                                              
-Publié en 1995 par Erich Gamma, Richard Helm, Ralph Johnson et John Vlissides, et plus généralement appélé ***"Gang of Four"*** (GoF), cette équipe présente 23 Design Patterns qui sont aujourd'hui des références dans de domaine de l'informatique.
+Publié en 1995 par Erich Gamma, Richard Helm, Ralph Johnson et John Vlissides, et plus généralement appélé ***"Gang of Four"*** (GoF), cette équipe présente 23 Design Patterns qui sont aujourd'hui des références dans le domaine de l'informatique.
 
 # Design Pattern ?
 
-//Definir design pattern
+Selon les personnes, un Design Pattern peut être appelé ***'motif de conception'***, ***'modèle de conception'*** ou encore ***'patron de conception'***, mais la signification reste la même.
+
+Finalement un Design Pattern est une solution à un problème récurrent dans la conception d'applications orientées objet. Nous allons voir que le Design Patter Visiteur permet de concevoir un application où il sera facile d’ajouter des fonctionnalités à une classe sans la modifier. 
 
 # Les différents Design Patterns
 
