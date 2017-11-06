@@ -166,13 +166,13 @@ On vérifie que tout cela fonctionne.
 
 
 ```java runnable
-// Interface CarElement{ autofold 
+// Interface CarElement { autofold 
 interface CarElement {
     void accept(CarElementVisitor visitor);
 }
 // }
 
-// { autofold 
+// Classe Wheel { autofold 
 class Wheel implements CarElement {
     private String name;
 
@@ -188,19 +188,25 @@ class Wheel implements CarElement {
         visitor.visit(this);
     }
 }
+// }
 
+// Classe Engine { autofold 
 class Engine implements CarElement {
     public void accept(CarElementVisitor visitor) {
         visitor.visit(this);
     }
 }
+// }
 
+// Classe Body { autofold 
 class Body implements CarElement {
     public void accept(CarElementVisitor visitor) {
         visitor.visit(this);
     }
 }
+// }
 
+// Classe Body { autofold 
 class Car {
     CarElement[] elements;
 
@@ -219,14 +225,18 @@ class Car {
             };
     }
 }
+// }
 
+// Interface CarElementVisitor { autofold 
 interface CarElementVisitor {
     void visit(Wheel wheel);
     void visit(Engine engine);
     void visit(Body body);
     void visitCar(Car car);
 }
+// }
 
+// Classe CarElementPrintVisitor { autofold 
 class CarElementPrintVisitor implements CarElementVisitor {
     public void visit(Wheel wheel) {
         System.out.println("Visiting "+ wheel.getName() + " wheel");
@@ -248,7 +258,9 @@ class CarElementPrintVisitor implements CarElementVisitor {
         System.out.println("Visited car");
     }
 }
+// }
 
+// Classe CarElementDoVisitor { autofold 
 class CarElementDoVisitor implements CarElementVisitor {
     public void visit(Wheel wheel) {
         System.out.println("Kicking my "+ wheel.getName());
@@ -271,17 +283,17 @@ class CarElementDoVisitor implements CarElementVisitor {
     }
 }
 // }
-public class Main{//On hérite de Main pour pouvoir éxécuter le code sur tech.io
+
+public class Main{//On remplace ici le nom de la classe TestVisitorDemo par Main pour être éxécuter sur tech.io
     static public void main(String[] args) {
-        /*
+
         Car car = new Car();
 
         CarElementVisitor printVisitor = new CarElementPrintVisitor();
         CarElementVisitor doVisitor = new CarElementDoVisitor();
 
         printVisitor.visitCar(car);
-        doVisitor.visitCar(car);*/
-        System.out.println("test");
+        doVisitor.visitCar(car);
     }
 }
 ```
