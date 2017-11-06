@@ -169,7 +169,6 @@ On vérifie que tout cela fonctionne.
 // { TEST
 interface CarElement {
     void accept(CarElementVisitor visitor);
-    // Méthode à définir par les classes implémentant CarElements
 }
 
 class Wheel implements CarElement {
