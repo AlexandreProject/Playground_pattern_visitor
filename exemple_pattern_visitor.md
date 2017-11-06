@@ -92,7 +92,7 @@ interface CarElementVisitor {
 On crée deux classes visitor qui étendent l'interface précédente.
 
 CarElementPrintVisitor.java
-```java runnable
+```
 class CarElementPrintVisitor implements CarElementVisitor {
     public void visit(Wheel wheel) {
         System.out.println("Visiting "+ wheel.getName() + " wheel");
@@ -117,7 +117,7 @@ class CarElementPrintVisitor implements CarElementVisitor {
 ```
 
 CarElementDoVisitor.java
-```java runnable
+```
 class CarElementDoVisitor implements CarElementVisitor {
     public void visit(Wheel wheel) {
         System.out.println("Kicking my "+ wheel.getName());
@@ -146,7 +146,7 @@ class CarElementDoVisitor implements CarElementVisitor {
 On crée une classe de test pour la démonstration grâce aux deux classes précédentes.
 
 TestVisitorDemo.java
-```java runnable
+```
 public class TestVisitorDemo {
     static public void main(String[] args) {
         Car car = new Car();
