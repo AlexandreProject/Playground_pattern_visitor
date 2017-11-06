@@ -166,11 +166,13 @@ On vérifie que tout cela fonctionne.
 
 
 ```java runnable
-// { TEST
+// Interface CarElement{ autofold 
 interface CarElement {
     void accept(CarElementVisitor visitor);
 }
+// }
 
+// { autofold 
 class Wheel implements CarElement {
     private String name;
 
