@@ -167,10 +167,20 @@ On vérifie que tout cela fonctionne.
 
 ```java runnable
 // { autofold
-public class Main {
+interface CarElement {
+    void accept(CarElementVisitor visitor);
+    // Méthode à définir par les classes implémentant CarElements
+}
+
+interface CarElementVisitor {
+    void visit(Wheel wheel);
+    void visit(Engine engine);
+    void visit(Body body);
+    void visitCar(Car car);
+}
 
 // }
-//public class TestVisitorDemo{//On hérite de Main pour pouvoir éxécuter le code sur tech.io
+//public class Main{//On hérite de Main pour pouvoir éxécuter le code sur tech.io
     static public void main(String[] args) {
         /*
         Car car = new Car();
