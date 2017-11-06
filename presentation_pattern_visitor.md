@@ -1,4 +1,4 @@
-# Présentation rapide du Design Patern Visitor
+# Présentation rapide du Design Pattern Visitor
 
 //Quand l'utiliser (quel type de problème)
 
