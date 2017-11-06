@@ -166,7 +166,7 @@ On vérifie que tout cela fonctionne.
 
 
 ```java runnable
-// { autofold
+// { TEST
 interface CarElement {
     void accept(CarElementVisitor visitor);
     // Méthode à définir par les classes implémentant CarElements
