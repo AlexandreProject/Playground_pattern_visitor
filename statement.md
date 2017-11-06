@@ -26,7 +26,7 @@ Publié en 1995 par Erich Gamma, Richard Helm, Ralph Johnson et John Vlissides, 
 
 Selon les personnes, un Design Pattern peut être appelé **"motif de conception"**, **"modèle de conception"** ou encore **"patron de conception"**, mais la signification reste la même.
 
-Finalement un Design Pattern est une solution à un problème récurrent dans la conception d'applications orientées objet. Nous allons voir que le Design Patter Visiteur permet de concevoir un application où il sera facile d’ajouter des fonctionnalités à une classe sans la modifier. 
+Finalement un Design Pattern est une solution à un problème récurrent dans la conception d'applications orientées objet. Nous allons voir que le Design Pattern Visiteur permet de concevoir un application où il sera facile d’ajouter des fonctionnalités à une classe sans la modifier. 
 
 # Les différents Design Patterns
 
