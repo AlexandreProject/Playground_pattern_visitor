@@ -13,7 +13,14 @@ Dans le développement, un pattern constitue une solution générique pour un ty
 
 # Origine des Design Patterns 
 
-//Raconter l'origine
+L'origine des Designs Patterns viens des travaux d'un architecte, Christopher Alexander. Il remarque que la phase de construction en architecture possède des problèmes récurrents, il écrit alors un livre _A Pattern Language_ en 1977, il établi alors un nouveau langage avec 253 patterns, qui couvrent tous les aspects de la construction.
+
+![Image de couverture "A Pattern Language"](https://img4.hostingpics.net/pics/130549apatternlanguage.jpg)
+
+Ce n'est que plus tard dans les années 90, que l'idée d'Alexander va être reprise, plus particulièrement dans le domaine de conception de logiciel. Dans le livre _Design Patterns : Elements of Reusable Object-Oriented_ .
+
+![Image de couverture "Design Patterns : Elements of Reusable Object-Oriented Software"](https://img4.hostingpics.net/pics/379158designpatternsgof.jpg)                                                                                                                                              
+Publié en 1995 par Erich Gamma, Richard Helm, Ralph Johnson et John Vlissides, et plus généralement appélé ***"Gang of Four"*** (GoF), cette équipe présente 23 Design Patterns qui sont aujourd'hui des références dans de domaine de l'informatique.
 
 # Design Pattern ?
 
