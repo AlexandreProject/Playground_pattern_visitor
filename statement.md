@@ -70,7 +70,7 @@ Il est important de bien identifier le problème de conception avant de choisir 
 -[ ] Un motif de conception
 -[x] Un composant réutilisable et paramétrable
 -[x] Un algorithme
--[ ] Une solution générique pour une problèmatique précise
+-[ ] Une solution générique pour un ou plusieurs problèmes
 -[ ] Ensemble de bonnes pratiques
 -[x] Un framework
 
