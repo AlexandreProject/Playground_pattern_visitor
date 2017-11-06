@@ -166,7 +166,11 @@ On vérifie que tout cela fonctionne.
 
 
 ```java runnable
-public class TestVisitorDemo extends Main {//On hérite de Main pour pouvoir éxécuter le code sur tech.io
+// { autofold
+public class Main {
+
+// }
+//public class TestVisitorDemo{//On hérite de Main pour pouvoir éxécuter le code sur tech.io
     static public void main(String[] args) {
         /*
         Car car = new Car();
