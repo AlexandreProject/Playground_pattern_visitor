@@ -1,6 +1,6 @@
 # Bienvenue
 
-Bonjour à tous, ce playground va vous permettre d'apprendre et comprendre brièvement le design pattern Visiteur.
+Bonjour à tous, ce playground va vous permettre d'apprendre et comprendre brièvement le Design Pattern Visiteur.
 
 # Pattern ?
 
@@ -32,27 +32,49 @@ Finalement un Design Pattern est une **solution** à un **problème** récurrent
 
 ## Caractéristiques 
 
-Un Design Pattern est généralement représenté par 4 caractéristiques :
+Un Design Pattern est représenté par 4 caractéristiques :
    - **Nom** : qui permet de l’identifier clairement
    - **Problématique** : description du problème auquel il répond
    - **Solution** : description de la solution souvent accompagnée d’un schéma UML
    - **Conséquences** : les avantages et les inconvénients de cette solution
 
+## Les différents Design Patterns
+
+Les 23 Designs Patterns peuvent être regroupés en 3 familles : 
+    - **Création** : ils permettent d’instancier et de configurer des classes et des objets.
+    - **Structure** : ils permettent d’organiser les classes d’une application.
+    - **Comportement** : ils permettent d'organiser les objets pour qu’ils collaborent entre eux.
 
 
-# Les différents Design Patterns
+## L'utilité des Design Patterns et comment s'en servir
 
-//Parler des trois grands groupe
+1. Trouver le problème
+2. Identifier le Design Pattern qui pourrait résoudre le problème
+3. Créer sa propre solution en utilisant la solution générique du Design Pattern
 
-# L'utilité des Design Patterns et comment s'en servir
-
-//identifier le probleme, trouver le pattern et appliquer le pattern
+Il est important de bien identifier le problème de conception avant de choisir un pattern, sinon le pattern choisi s'adaptera mal avec le problème et pourrait créer encore plus de problème qu'au départ.
 
 # QCM
 
 ?[De quel design pattern va-t-on parler aujourd'hui ?]
 -[ ] Je ne sais pas
 -[ ] Singleton
--[x] Visitor
+-[x] Visiteur
 -[ ] La réponse D
 
+?[Qui à crée les premiers Designs Patterns pour la conception des logiciels ?]
+-[x] "Gang of Four"
+-[ ] Christopher Alexander
+
+?[Qu'est-ce que n'est pas un Design Pattern ?]
+-[ ] Un motif de conception
+-[x] Un composant réutilisable et paramétrable
+-[x] Un algorithme
+-[ ] Une solution générique
+-[ ] Une structure
+-[x] Un framework
+
+?[A votre avis, à quelle famille appartient le Design Pattern Visiteur ?]
+-[ ] Création
+-[ ] Structure
+-[x] Comportement
