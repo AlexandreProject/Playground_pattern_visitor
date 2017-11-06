@@ -46,11 +46,11 @@ Les 23 Designs Patterns peuvent être regroupés en 3 familles :
     - **Comportement** : ils permettent d'organiser les objets pour qu’ils collaborent entre eux.
 
 
-## L'utilité des Design Patterns et comment s'en servir
+## Comment s'en servir ?
 
 1. Trouver le problème
-1. Identifier le Design Pattern qui pourrait résoudre le problème
-1. Créer sa propre solution en utilisant la solution générique du Design Pattern
+2. Identifier le Design Pattern qui pourrait résoudre le problème
+3. Créer sa propre solution en utilisant la solution générique du Design Pattern
 
 Il est important de bien identifier le problème de conception avant de choisir un pattern, sinon le pattern choisi s'adaptera mal avec le problème et pourrait créer encore plus de problème qu'au départ.
 
