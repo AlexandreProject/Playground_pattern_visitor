@@ -160,6 +160,11 @@ public class TestVisitorDemo {
 }
 ```
 
+Voilà à quoi ressemble le diagramme de classe de notre exemple :
+
+![Diagramme de classe de l'exemple Visiteur](https://img4.hostingpics.net/pics/123507diagrammeclassevisiteur.png)
+
+
 # Sixième étape
 
 On vérifie que tout cela fonctionne.
