@@ -3,7 +3,7 @@
 On définit une interface qui représente un élément.
 
 CarElement.java
-```java runnable
+```
 interface CarElement {
     void accept(CarElementVisitor visitor);
     // Méthode à définir par les classes implémentant CarElements
@@ -15,7 +15,7 @@ interface CarElement {
 On crée les classes qui étendent de cette interface.
 
 Wheel.java
-```java runnable
+```
 class Wheel implements CarElement {
     private String name;
 
@@ -34,7 +34,7 @@ class Wheel implements CarElement {
 ```
 
 Engine.java
-```java runnable
+```
 class Engine implements CarElement {
     public void accept(CarElementVisitor visitor) {
         visitor.visit(this);
@@ -43,7 +43,7 @@ class Engine implements CarElement {
 ```
 
 Body.java
-```java runnable
+```
 class Body implements CarElement {
     public void accept(CarElementVisitor visitor) {
         visitor.visit(this);
@@ -52,7 +52,7 @@ class Body implements CarElement {
 ```
 
 Car.java
-```java runnable
+```
 class Car {
     CarElement[] elements;
 
@@ -78,7 +78,7 @@ class Car {
 On crée une interface qui représente Visitor.
 
 CarElementVisitor.java
-```java runnable
+```
 interface CarElementVisitor {
     void visit(Wheel wheel);
     void visit(Engine engine);
