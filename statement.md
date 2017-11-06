@@ -62,7 +62,7 @@ Il est important de bien identifier le problème de conception avant de choisir 
 -[x] Visiteur
 -[ ] La réponse D
 
-?[Qui à crée les premiers Designs Patterns pour la conception des logiciels ?]
+?[Qui à crée les premiers Designs Patterns pour la conception de logiciel ?]
 -[x] "Gang of Four"
 -[ ] Christopher Alexander
 
