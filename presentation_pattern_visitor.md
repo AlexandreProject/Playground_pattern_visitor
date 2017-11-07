@@ -32,12 +32,12 @@ On peut facilement ajouter de nouveaux traitements sans toucher à la hiérarchi
 
 # Quizz
 
-?[Quelle est  l'avantage du Pattern Visiteur ?]
+?[Quelle est l'avantage du Pattern Visiteur ?]
 -[X] L'ajout de nouvelles opérations
 -[ ] L'ajout de nouveaux types
 
-?[Quelle est  l'avantage du Pattern Visiteur ?]
--[X] L'ajout de nouvelles opérations
--[ ] L'ajout de nouveaux types
+?[Quand faut-il utilisé le Pattern Visiteur ?]
+-[X] Quand un objet se compose de plusieurs objets avec différentes interfaces et que l'on veut créer des opérations sur ces objets
+-[ ] Quand une interface
 
 
