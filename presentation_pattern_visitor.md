@@ -8,7 +8,10 @@ Le Design Pattern Visiteur appartient à la famille des patterns **comportementa
  
 Le Pattern Visiteur permet de séparer des données et les traitements associés pour ces données. Ce modèle de conception permet à une classe externe d'être informée du type exact d'instances d'un ensemble de classes.
 
-> En pratique, le modèle de conception visiteur est réalisé de la façon suivante : chaque classe pouvant être « visitée » doit mettre à disposition une méthode publique « accepter » prenant comme argument un objet du type « visiteur ». La méthode « accepter » appellera la méthode « visite » de l'objet du type « visiteur » avec pour argument l'objet visité. De cette manière, un objet visiteur pourra connaître la référence de l'objet visité et appeler ses méthodes publiques pour obtenir les données nécessaires au traitement à effectuer (calcul, génération de rapport, etc.). 
+> En pratique, le modèle de conception visiteur est réalisé de la façon suivante : chaque classe pouvant être « visitée » doit mettre à disposition une méthode publique « accepter » prenant comme argument un objet du type « visiteur ». La méthode « accepter » appellera la méthode « visite » de l'objet du type « visiteur » avec pour argument l'objet visité. De cette manière, un objet visiteur pourra connaître la référence de l'objet visité et appeler ses méthodes publiques pour obtenir les données nécessaires au traitement à effectuer (calcul, génération de rapport, etc.). [Plus d'infos](https://fr.wikipedia.org/wiki/Visiteur_(patron_de_conception))
+
+![Schéma d'utilisation Pattern Visiteur](https://upload.wikimedia.org/wikipedia/commons/f/fc/Visitorpattern.png)
+Schéma du pattern Visiteur
 
 ## Caractéristiques
 
