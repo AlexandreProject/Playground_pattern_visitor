@@ -11,9 +11,9 @@ Dans _Super Mario Bros._, Bowser crache des boules de feu et saute à des interv
 
 Dans le développement, un pattern constitue une solution générique pour un type de problème rencontré.
 
-# Origine des Design Patterns 
+# Origine des Designs Patterns 
 
-L'origine des Designs Patterns viens des travaux d'un architecte, Christopher Alexander. Il remarque que la phase de construction en architecture possède des problèmes récurrents, il écrit alors un livre _A Pattern Language_ en 1977, il établi alors un nouveau langage avec 253 patterns, qui couvrent tous les aspects de la construction.
+L'origine des Designs Patterns vient des travaux d'un architecte, Christopher Alexander. Il remarque que la phase de construction en architecture possède des problèmes récurrents, il écrit un livre _A Pattern Language_ en 1977, où il établi alors un nouveau langage avec 253 patterns, qui couvrent tous les aspects de la construction.
 
 ![Image de couverture "A Pattern Language"](https://img4.hostingpics.net/pics/130549apatternlanguage.jpg)
 
