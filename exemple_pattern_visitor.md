@@ -303,28 +303,6 @@ public class Main{//On remplace ici le nom de la classe TestVisitorDemo par Main
 }
 ```
 
-On attend ce résultat :
-
-```java
-Visiting car
-Visiting front left wheel
-Visiting front right wheel
-Visiting back left wheel
-Visiting back right wheel
-Visiting body
-Visiting engine
-Visited car
-
-Starting my car
-Kicking my front left
-Kicking my front right
-Kicking my back left
-Kicking my back right
-Moving my body
-Starting my engine
-Started car
-```
-
 # Quizz
 
 ?[Combien y a t-il d'étapes dans notre tutoriel ?]
