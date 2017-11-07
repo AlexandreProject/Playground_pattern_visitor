@@ -21,10 +21,10 @@ Schéma du pattern Visiteur
 
 ## Caractéristiques
 
-### Nom
-    **Visiteur**, 
+### Nom  **Visiteur**
     
 ### Problématique
+On peut parfois avoir à faire des opérations distinctes et indépendantes qui doivent être effectuées sur des noeud d'objet dans une structure agrégée hétérogène. Vous voulez éviter de "polluer" les classes de nœuds avec ces opérations. De plus, vous ne voulez pas avoir à interroger le type de chaque nœud et à placer le pointeur sur le type correct avant d'effectuer l'opération souhaitée.
 
 ### Solution
 
