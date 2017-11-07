@@ -351,3 +351,7 @@ Started car
 -[x] Elle appelle la méthode "visite" de l'objet du type "visiteur" avec pour argument l'objet visité.
 -[ ] Elle appelle la méthode "visite" de l'objet du type "visité" avec pour argument l'objet visiteur.
 -[ ] Elle appelle la méthode "visiteur" de l'objet du type "visite" avec pour argument l'objet visité.
+
+
+
+#### Merci d'avoir suivi ce playground !
