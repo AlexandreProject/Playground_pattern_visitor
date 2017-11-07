@@ -12,23 +12,29 @@ Le Pattern Visiteur permet de séparer des données et les traitements associés
 
 ::: Plus d'infos
 + [Pattern Visiteur](https://fr.wikipedia.org/wiki/Visiteur_(patron_de_conception))
-+ [Explications détaillés (en anglais)](https://sourcemaking.com/design_patterns/visitor)
++ [Explications détaillés sur la structure (en anglais)](https://sourcemaking.com/design_patterns/visitor)
 
 :::
 
+Schéma du Design Pattern Visiteur
 ![Schéma d'utilisation Pattern Visiteur](https://upload.wikimedia.org/wikipedia/commons/f/fc/Visitorpattern.png)
-Schéma du pattern Visiteur
-
 
 Il est possible de créer des dérivées de la classe visiteuse, on peut créer autant d’opérations différentes pouvant être appliquée à la classe visitée sans avoir à en modifier le code.
-## Caractéristiques
 
-### Problématique
-On peut parfois avoir à faire des opérations distinctes et indépendantes qui doivent être effectuées sur des noeud d'objet dans un ensemble de classes. Vous voulez éviter de "polluer" les classes "nœuds" (interface) avec ces opérations. De plus, vous ne voulez pas avoir à interroger le type de chaque nœud et à le caster sur le type correct avant d'effectuer l'opération souhaitée.
 
-### Solution
+## Intérêt
 
-### Conséquences
+On peut facilement ajouter de nouveaux traitements sans toucher à la hiérarchie de nos objets (en POO "classique", on aurait implémenté de nouvelles méthodes pour ajouter de nouvelles fonctionnalités). Grâce aux Visiteurs :
 
-//Comment l'utiliser 
-  //explication en détails
+   + le code est plus clair (des fonctionnalités différentes se trouvent dans des Visiteurs différents)
+   + des équipes différentes peuvent travailler sur des fonctionnalités différentes sans gêner les autres équipes
+   + on n'est pas obligé de tout recompiler à chaque ajout d'une fonctionnalité (seul le code du Visiteur est recompilé)
+
+
+## Quand l'utiliser
+
+
+
+# Quizz
+
+
