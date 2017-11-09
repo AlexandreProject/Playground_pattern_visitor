@@ -325,11 +325,5 @@ public class Main{//On remplace ici le nom de la classe TestVisitorDemo par Main
 -[ ] Créer l'interface CarElementVisitor.java
 -[ ] Créer les classes Wheel.java, Engine.java, Body.java et Car.java
 
-?[A quoi sert la méthode accept ?]
--[x] Elle appelle la méthode "visite" de l'objet du type "visiteur" avec pour argument l'objet visité.
--[ ] Elle appelle la méthode "visite" de l'objet du type "visité" avec pour argument l'objet visiteur.
--[ ] Elle appelle la méthode "visiteur" de l'objet du type "visite" avec pour argument l'objet visité.
-
-
 
 #### Merci d'avoir suivi ce playground !
