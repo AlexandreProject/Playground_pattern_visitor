@@ -30,7 +30,7 @@ On peut facilement ajouter de nouveaux traitements sans toucher à la hiérarchi
    + on n'est pas obligé de tout recompiler à chaque ajout d'une fonctionnalité (seul le code du Visiteur est recompilé)
 
 
-# Quizz
+# Quiz
 
 ?[Quelle est l'avantage du Pattern Visiteur ?]
 -[X] L'ajout de nouvelles opérations
