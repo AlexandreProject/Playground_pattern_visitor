@@ -16,10 +16,6 @@ Schéma du Design Pattern Visiteur
 
 Il est possible de créer des dérivées de la classe visiteuse, on peut créer autant d’opérations différentes pouvant être appliquée à la classe visitée sans avoir à en modifier le code.
 
-::: Plus d'infos
-+ [Pattern Visiteur](https://fr.wikipedia.org/wiki/Visiteur_(patron_de_conception))
-+ [Explications détaillés sur la structure (en anglais)](https://sourcemaking.com/design_patterns/visitor)
-:::
 
 ## Intérêt
 
