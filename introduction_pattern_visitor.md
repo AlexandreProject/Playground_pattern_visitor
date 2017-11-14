@@ -54,7 +54,7 @@ Les 23 Designs Patterns peuvent être regroupés en 3 familles :
 
 Il est important de bien identifier le problème de conception avant de choisir un pattern, sinon le pattern choisi s'adaptera mal avec le problème et pourrait créer encore plus de problème qu'au départ.
 
-# Quizz
+# Quiz
 
 ?[De quel design pattern va-t-on parler aujourd'hui ?]
 -[ ] Je ne sais pas
