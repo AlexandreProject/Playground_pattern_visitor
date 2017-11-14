@@ -332,7 +332,7 @@ public class Main{//On remplace ici le nom de la classe TestVisitorDemo par Main
 ::: Plus d'infos/Références
 + [Design Pattern](http://www.e-naxos.com/Blog/post/Design-Patterns-ou-quand-comment-et-pourquoi-.aspx)
 + [Pattern Visiteur (wikipédia)](https://fr.wikipedia.org/wiki/Visiteur_(patron_de_conception))
-+ [Pattern Visiteur et d'autres pattern](http://aqualonne.free.fr/Teaching/csc/Patterns.pdf)
++ [Pattern Visiteur et autres patterns](http://aqualonne.free.fr/Teaching/csc/Patterns.pdf)
 + [Explications détaillés sur la structure (en anglais)](https://sourcemaking.com/design_patterns/visitor)
 + [Exemple (wikilivres)](https://fr.wikibooks.org/wiki/Patrons_de_conception/Visiteur)
 + [Autre exemple](http://www.informatix.fr/tutoriels/conception/le-design-pattern-visiteur-106)
