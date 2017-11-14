@@ -13,7 +13,7 @@ Dans le développement, un pattern constitue une solution générique pour un ty
 
 # Origine des Designs Patterns 
 
-L'origine des Designs Patterns vient des travaux d'un architecte, Christopher Alexander. Il remarque que la phase de construction en architecture possède des problèmes récurrents, il écrit un livre _A Pattern Language_ en 1977, où il établi alors un nouveau langage avec 253 patterns, qui couvrent tous les aspects de la construction.
+L'origine des Designs Patterns vient des travaux d'un architecte, Christopher Alexander. Il remarque que la phase de construction en architecture possède des problèmes récurrents, il écrit un livre _A Pattern Language_ en 1977, où il établit alors un nouveau langage avec 253 patterns, qui couvrent tous les aspects de la construction.
 
 ![Image de couverture "A Pattern Language"](https://img4.hostingpics.net/pics/130549apatternlanguage.jpg)
 
@@ -38,7 +38,7 @@ Un Design Pattern est représenté par 4 caractéristiques :
    - **Solution** : description de la solution souvent accompagnée d’un schéma UML
    - **Conséquences** : les avantages et les inconvénients de cette solution
 
-## Les différents Design Patterns
+## Les différents Designs Patterns
 
 Les 23 Designs Patterns peuvent être regroupés en 3 familles : 
 - **Création** : ils permettent d’instancier et de configurer des classes et des objets.
