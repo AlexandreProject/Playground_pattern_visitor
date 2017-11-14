@@ -303,7 +303,7 @@ public class Main{//On remplace ici le nom de la classe TestVisitorDemo par Main
 }
 ```
 
-# Quizz
+# Quiz
 
 ?[Combien y a t-il d'étapes dans notre tutoriel ?]
 -[ ] 8
