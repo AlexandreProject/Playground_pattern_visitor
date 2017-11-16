@@ -30,10 +30,10 @@ On peut facilement ajouter de nouveaux traitements sans toucher à la hiérarchi
 
 ?[Quelle est l'avantage du Pattern Visiteur ?]
 -[X] L'ajout de nouvelles opérations
--[ ] L'ajout de nouveaux types
+-[ ] L'ajout de nouveaux attributs
 
 ?[Quand faut-il utiliser le Pattern Visiteur ?]
--[X] Quand une structure d'objet se compose de plusieurs objets avec différentes interfaces et que l'on veut créer des opérations sur ces objets
+-[X] Quand une structure d'objet se compose de plusieurs objets avec une interface et que l'on veut créer des opérations sur ces objets
 -[ ] Quand une structure d'objet change souvent et que l'on souhaite créer des opérations sur ces objets
 
 ?[Le Visiteur peut "visiter" les classes qui possède la méthode publique..]
