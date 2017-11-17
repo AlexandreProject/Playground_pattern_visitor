@@ -336,4 +336,5 @@ public class Main{//On remplace ici le nom de la classe TestVisitorDemo par Main
 + [Explications détaillés sur la structure (en anglais)](https://sourcemaking.com/design_patterns/visitor)
 + [Exemple (wikilivres)](https://fr.wikibooks.org/wiki/Patrons_de_conception/Visiteur)
 + [Autre exemple](http://www.informatix.fr/tutoriels/conception/le-design-pattern-visiteur-106)
++ [Github m3105](https://github.com/iblasquez/enseignement-iut-m3105-conception-avancee)
 :::
